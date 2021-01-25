@@ -53,8 +53,8 @@ export abstract class AbstractCmd {
 	/** Returns true if the parameter settings allows the creation of a command line - otherwise false. */
 	protected abstract canExecuted(): boolean;
 
-	/** 
-	 * Currently only returns an GitHub action output parameter name for the security analysis 
+	/**
+	 * Currently only returns an GitHub action output parameter name for the security analysis
 	 * to export the status messages as GitHub action output.
 	 *
 	 * @see ./headless-util/headless-property.ts - for Xanitizer status message keys
